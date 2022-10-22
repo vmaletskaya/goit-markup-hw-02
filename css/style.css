@@ -201,7 +201,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-title-color);
-  background: var(--background-color);
+  background: var(--background-color-grey);
   border: none;
   cursor: pointer;
 }
