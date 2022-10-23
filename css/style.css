@@ -7,10 +7,12 @@
   --background-color-grey: #f5f4fa;
   --background-color-black: #2f303a;
   --footer-contact-color: rgba(255, 255, 255, 0.6);
+  --btn-hover-focus-color:#188CE8;
 }
 body {
   font-family: "Roboto", sans-serif;
   background-color: var(--main-title-color);
+  color: var(--description-color);
 }
 
 .list {
@@ -97,6 +99,10 @@ body {
   cursor: pointer;
   border: none;
 }
+.btn-hero:hover,
+.btn-hero:focus{
+  background-color: var(--btn-hover-focus-color);
+}
 
 /* benefins */
 .visually-hidden {
@@ -137,6 +143,8 @@ body {
   line-height: calc(42 / 36);
   letter-spacing: 0.03em;
   color: var(--secondary-title-color);
+  text-align: center;
+
 }
 
 /* staff */
@@ -208,6 +216,7 @@ body {
 .btn-works:hover,
 .btn-works:focus {
   background-color: var(--accent-color);
+  color: var(--main-title-color);
 }
 
 .works-card {
